@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/layout/nav_home.scss"],"names":[],"mappings":"AAAA;EACI","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/layout/nav_home.scss","../sass/base/variables.scss"],"names":[],"mappings":"AAAA;EACA;IACI;IACA;;EACA;IACA;IACA;;EAGJ;IACI;IACA;IACA;;EACA;IACI;;EAGR;IACI;IACA;;EACA;IACI,kBCpBa;IDqBb;IACA","file":"main.css"}
