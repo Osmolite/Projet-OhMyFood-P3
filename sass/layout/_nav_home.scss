@@ -4,17 +4,25 @@ body {
     text-align: center;
 }
 .menu_1 {
-    box-shadow: 0px 5px 5px grey;
+    z-index: 1000;
+    box-shadow: 0px 5px 5px rgb(211, 18, 18);
     width: 100%;
     &__logo {
     width: 50%;
-    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
 }
 }
 .menu_2{
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(234,234,234,255);
     font-family: 'Roboto', sans-serif;
-    &__text {
-        color: red;
+    .fa-solid.fa-location-dot {
+        padding-top: 14px;
+        padding-right: 6px;
     }
 }
 .menu_3 {
