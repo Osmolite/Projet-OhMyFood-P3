@@ -4,15 +4,15 @@ body {
     text-align: center;
 }
 .menu_1 {
-    z-index: 1000;
-    box-shadow: 0px 5px 5px rgb(211, 18, 18);
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 3px 5px rgb(193, 193, 193);
     width: 100%;
     &__logo {
     width: 50%;
     padding-top: 20px;
     padding-bottom: 15px;
-
-}
+    }
 }
 .menu_2{
     z-index: -1;
@@ -20,13 +20,24 @@ body {
     justify-content: center;
     background-color: rgba(234,234,234,255);
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     .fa-solid.fa-location-dot {
-        padding-top: 14px;
-        padding-right: 6px;
+        padding-top: 16px;
+        padding-right: 11px;
     }
 }
 .menu_3 {
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(246,246,246,255);
+    &__text_1 {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-weight: 800;
+    }
+    &__text_2 {
+        font-size: 22px;
+        font-weight: 350;
+    }
     &__bouton {
         background-color: $couleur_secondaire;
         // border-radius: 30%;
