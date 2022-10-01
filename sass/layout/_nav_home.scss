@@ -1,6 +1,10 @@
 @media screen and (max-width: 768px) {
+body {
+    margin: 0px;
+    text-align: center;
+}
 .menu_1 {
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 0px 5px 5px grey;
     width: 100%;
     &__logo {
     width: 50%;
@@ -8,8 +12,6 @@
 }
 }
 .menu_2{
-    display: flex;
-    align-items: center;
     font-family: 'Roboto', sans-serif;
     &__text {
         color: red;
@@ -17,11 +19,10 @@
 }
 .menu_3 {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     &__bouton {
         background-color: $couleur_secondaire;
-        border-radius: 30%;
-        width: 200px;
+        // border-radius: 30%;
+        // width: 200px;
     }
 }
 }

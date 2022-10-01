@@ -1,6 +1,10 @@
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0px;
+    text-align: center;
+  }
   .menu_1 {
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 0px 5px 5px grey;
     width: 100%;
   }
   .menu_1__logo {
@@ -8,8 +12,6 @@
     align-items: center;
   }
   .menu_2 {
-    display: flex;
-    align-items: center;
     font-family: "Roboto", sans-serif;
   }
   .menu_2__text {
@@ -17,11 +19,8 @@
   }
   .menu_3 {
     font-family: "Roboto", sans-serif;
-    text-align: center;
   }
   .menu_3__bouton {
     background-color: #FF79DA;
-    border-radius: 30%;
-    width: 200px;
   }
 }/*# sourceMappingURL=main.css.map */
