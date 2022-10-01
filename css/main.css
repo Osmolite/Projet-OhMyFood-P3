@@ -41,9 +41,10 @@
     font-size: 22px;
     font-weight: 350;
   }
-  .menu_3__bouton__text {
+  .menu_3__bouton {
     padding: 10px;
     background-color: #FF79DA;
-    border-radius: 30%;
+    border-radius: 100%;
+    width: 50%;
   }
 }/*# sourceMappingURL=main.css.map */

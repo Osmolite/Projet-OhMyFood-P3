@@ -41,13 +41,10 @@ body {
         font-weight: 350;
     }
     &__bouton {
-        &__text{
-            padding: 10px;
-            background-color: $couleur_secondaire;
-            border-radius: 30%;
-        }
-        
-        
+        padding: 10px;
+        background-color: $couleur_secondaire;
+        border-radius: 100%;
+        width: 50%; 
     }
 }
 }
