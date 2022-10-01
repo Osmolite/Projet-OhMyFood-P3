@@ -30,8 +30,10 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: rgba(246,246,246,255);
     &__text_1 {
+        margin-top: 0px;
         margin-left: 40px;
         margin-right: 40px;
+        padding-top: 10px;
         font-weight: 800;
     }
     &__text_2 {
@@ -39,9 +41,13 @@ body {
         font-weight: 350;
     }
     &__bouton {
-        background-color: $couleur_secondaire;
-        // border-radius: 30%;
-        // width: 200px;
+        &__text{
+            padding: 10px;
+            background-color: $couleur_secondaire;
+            border-radius: 30%;
+        }
+        
+        
     }
 }
 }

@@ -31,15 +31,19 @@
     background-color: rgb(246, 246, 246);
   }
   .menu_3__text_1 {
+    margin-top: 0px;
     margin-left: 40px;
     margin-right: 40px;
+    padding-top: 10px;
     font-weight: 800;
   }
   .menu_3__text_2 {
     font-size: 22px;
     font-weight: 350;
   }
-  .menu_3__bouton {
+  .menu_3__bouton__text {
+    padding: 10px;
     background-color: #FF79DA;
+    border-radius: 30%;
   }
 }/*# sourceMappingURL=main.css.map */
