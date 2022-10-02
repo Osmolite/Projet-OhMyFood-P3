@@ -29,6 +29,7 @@ body {
 .menu_3 {
     font-family: 'Roboto', sans-serif;
     background-color: rgba(246,246,246,255);
+    padding-bottom: 60px;
     &__text_1 {
         margin-top: 0px;
         margin-left: 40px;
@@ -41,10 +42,15 @@ body {
         font-weight: 350;
     }
     &__bouton {
-        padding: 10px;
-        background-color: $couleur_secondaire;
-        border-radius: 100%;
-        width: 50%; 
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        padding-inline: 8px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        background: linear-gradient($couleur_secondaire,$couleur_primaire);
+        border-radius: 40px;
+        margin-inline: 22%;
     }
 }
 }

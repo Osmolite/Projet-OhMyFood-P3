@@ -29,6 +29,7 @@
   .menu_3 {
     font-family: "Roboto", sans-serif;
     background-color: rgb(246, 246, 246);
+    padding-bottom: 60px;
   }
   .menu_3__text_1 {
     margin-top: 0px;
@@ -42,9 +43,14 @@
     font-weight: 350;
   }
   .menu_3__bouton {
-    padding: 10px;
-    background-color: #FF79DA;
-    border-radius: 100%;
-    width: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding-inline: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 40px;
+    margin-inline: 22%;
   }
 }/*# sourceMappingURL=main.css.map */
