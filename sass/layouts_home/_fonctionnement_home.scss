@@ -1,0 +1,16 @@
+.menu_4 {
+    text-align: left;
+    &__list{
+        list-style-type: none;
+        counter-reset: compteur;
+      }
+    &__list li{
+        counter-increment: compteur;
+      }
+    &__list li::before {
+        margin-bottom: 5px;
+        background-color: purple;
+        color: red;
+        content: counter(compteur);
+    }
+}

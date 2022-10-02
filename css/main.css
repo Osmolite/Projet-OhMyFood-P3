@@ -53,4 +53,20 @@
     border-radius: 40px;
     margin-inline: 22%;
   }
+}
+.menu_4 {
+  text-align: left;
+}
+.menu_4__list {
+  list-style-type: none;
+  counter-reset: compteur;
+}
+.menu_4__list li {
+  counter-increment: compteur;
+}
+.menu_4__list li::before {
+  margin-bottom: 5px;
+  background-color: purple;
+  color: red;
+  content: counter(compteur);
 }/*# sourceMappingURL=main.css.map */
