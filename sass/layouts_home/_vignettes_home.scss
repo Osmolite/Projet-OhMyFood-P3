@@ -1,0 +1,31 @@
+.section_1 {
+    background-color: rgba(246,246,246,255);
+}
+.section_1__cards {
+    display: flex;
+    flex-direction: column;
+    
+    img {
+        width: 100%;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    p {
+        text-align: left;
+        
+    }
+    h5 {
+        text-align: left;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+    &_restaurant {
+        border-radius: 40px;
+        background-color: white;
+        width: 90%;
+    }
+    
+}
