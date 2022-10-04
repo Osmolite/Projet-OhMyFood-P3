@@ -56,17 +56,31 @@
 }
 .menu_4 {
   text-align: left;
+  font-family: "Roboto", sans-serif;
 }
 .menu_4__list {
   list-style-type: none;
   counter-reset: compteur;
+  margin-left: -20px;
 }
 .menu_4__list li {
   counter-increment: compteur;
+  margin-block: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(246, 246, 246);
+  border-radius: 15px;
+  padding-block: 20px;
+  padding-right: 55px;
+  width: 300px;
+  box-shadow: 5px 5px 10px lightgray;
 }
 .menu_4__list li::before {
-  margin-bottom: 5px;
-  background-color: purple;
-  color: red;
+  padding: 5px;
+  padding-inline: 10px;
+  border-radius: 100%;
+  background-color: #9356DC;
+  color: white;
   content: counter(compteur);
+  margin-left: -35px;
 }/*# sourceMappingURL=main.css.map */
