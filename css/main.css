@@ -92,6 +92,7 @@
 .section_1__cards {
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
 }
 .section_1__cards img {
   width: 100%;
@@ -100,9 +101,12 @@
 }
 .section_1__cards p {
   text-align: left;
+  padding-left: 20px;
+  font-size: 25px;
 }
-.section_1__cards h5 {
-  text-align: left;
+.section_1__cards__titre {
+  font-weight: 600;
+  font-size: 25px;
 }
 .section_1__cards a {
   text-decoration: none;
@@ -113,4 +117,13 @@
   border-radius: 40px;
   background-color: white;
   width: 90%;
+}
+.section_1__cards__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.section_1__cards .fa-regular.fa-heart {
+  padding-top: 30px;
+  padding-right: 30px;
+  font-size: 25px;
 }/*# sourceMappingURL=main.css.map */

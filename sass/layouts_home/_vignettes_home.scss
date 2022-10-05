@@ -4,7 +4,7 @@
 .section_1__cards {
     display: flex;
     flex-direction: column;
-    
+    margin-left: 40px;
     img {
         width: 100%;
         border-top-left-radius: 40px;
@@ -12,10 +12,13 @@
     }
     p {
         text-align: left;
+        padding-left: 20px;
+        font-size: 25px;
         
     }
-    h5 {
-        text-align: left;
+    &__titre {
+        font-weight: 600;
+        font-size: 25px;
     }
     a {
         text-decoration: none;
@@ -26,6 +29,15 @@
         border-radius: 40px;
         background-color: white;
         width: 90%;
+    }
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .fa-regular.fa-heart {
+        padding-top: 30px;
+        padding-right: 30px;
+        font-size: 25px;
     }
     
 }
