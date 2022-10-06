@@ -1,59 +1,61 @@
-@media screen and (max-width: 768px) {
-  body {
-    margin: 0px;
-    text-align: center;
-  }
-  .menu_1 {
-    z-index: 1;
-    position: relative;
-    box-shadow: 0px 3px 5px rgb(193, 193, 193);
-    width: 100%;
-  }
-  .menu_1__logo {
-    width: 50%;
-    padding-top: 20px;
-    padding-bottom: 15px;
-  }
-  .menu_2 {
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(234, 234, 234);
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-  }
-  .menu_2 .fa-solid.fa-location-dot {
-    padding-top: 16px;
-    padding-right: 11px;
-  }
-  .menu_3 {
-    font-family: "Roboto", sans-serif;
-    background-color: rgb(246, 246, 246);
-    padding-bottom: 60px;
-  }
-  .menu_3__text_1 {
-    margin-top: 0px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-top: 10px;
-    font-weight: 800;
-  }
-  .menu_3__text_2 {
-    font-size: 22px;
-    font-weight: 350;
-  }
-  .menu_3__bouton {
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    padding-inline: 8px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    border-radius: 40px;
-    margin-inline: 22%;
-  }
+body {
+  margin: 0px;
+  text-align: center;
 }
+
+.menu_1 {
+  z-index: 1;
+  position: relative;
+  box-shadow: 0px 3px 5px rgb(193, 193, 193);
+  width: 100%;
+}
+.menu_1__logo {
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.menu_2 {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(234, 234, 234);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.menu_2 .fa-solid.fa-location-dot {
+  padding-top: 16px;
+  padding-right: 11px;
+}
+
+.menu_3 {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(246, 246, 246);
+  padding-bottom: 60px;
+}
+.menu_3__text_1 {
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 10px;
+  font-weight: 800;
+}
+.menu_3__text_2 {
+  font-size: 22px;
+  font-weight: 350;
+}
+.menu_3__bouton {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-inline: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 40px;
+  margin-inline: 22%;
+}
+
 .menu_4 {
   text-align: left;
   font-family: "Roboto", sans-serif;
@@ -160,15 +162,21 @@
 .footer {
   background-color: rgb(53, 53, 53);
   text-align: left;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 25px;
 }
 .footer__titre {
   font-family: "Shrikhand";
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   font-weight: 300;
+  margin: 0px;
+  padding-bottom: 10px;
 }
 .footer__text {
   color: white;
+  line-height: 30px;
 }
 
 footer a {
