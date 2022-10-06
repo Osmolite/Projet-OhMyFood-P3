@@ -88,6 +88,13 @@
 .section_1 {
   background-color: rgb(246, 246, 246);
 }
+.section_1__titre {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin-left: 50px;
+  font-size: 40px;
+  padding-top: 70px;
+}
 
 .section_1__cards {
   display: flex;
@@ -123,6 +130,8 @@
   border-radius: 40px;
   background-color: white;
   width: 90%;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 10px lightgray;
 }
 .section_1__cards__flex {
   display: flex;
