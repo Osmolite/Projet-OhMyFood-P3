@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/desktop.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="../../css/menu.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,19 +17,22 @@
 
 <body>
     <header>
-        <div class="bouton-return">
+        <div class="bouton_return">
             <a href="../home.html" class="bouton-return__link"><i class="fa-solid fa-arrow-left"></i></a>
         </div>
         <div class="logo">
             <img class="logo__image" src="/images/ohmyfood.png" alt="logo" />
         </div>
     </header>
+    <div class="overlay__menu">
     <section class="section_image">
         <img class="section_image__a_la_francaise" src="/images/a-la-francaise.jpg" alt="restaurant" />
     </section>
     <section class="menu">
-        <h1 class="menu__titre">A la française</h1>
-        <i class="fa-solid fa-heart"></i>
+        <div class="menu__titre__logo">
+        <h1 class="menu__titre">À la française</h1>
+        <i class="fa-regular fa-heart"></i>
+        </div>
         <div class="menu__entrees">
             <h3 class="menu__entrees__titre">Entrées</h3>
             <div class="menu__entrees_1">
@@ -102,4 +104,6 @@
         <a href="#">Mentions légales</a>
         <a href="#">Contact</a>
     </footer>
+    </div>
+    
 </body>

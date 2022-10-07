@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    margin: 0px;
+}
+.logo__image {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.fa-solid.fa-arrow-left {
+    color: rgba(53,53,53,255);
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    font-size: 25px;
+}
+.overlay__menu {
+    position: relative;
+}
+.section_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section_image__a_la_francaise {
+    width: 100%;
+    position: relative;
+}
+.menu {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgba(246,246,246,255);
+    &__titre {
+        font-family: 'Shrikhand';
+        font-size: 30px;
+    }
+    &__titre__logo {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.fa-regular.fa-heart {
+    padding-top: 35px;
+    font-size: 25px;
+}
+footer {
+    position: absolute;
+    top: 0;
+}
