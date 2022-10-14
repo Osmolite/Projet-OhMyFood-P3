@@ -58,5 +58,38 @@ body {
 
 footer {
   position: absolute;
-  top: 0;
+  bottom: -1622px;
+  background-color: rgb(53, 53, 53);
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+  width: 100%;
+}
+footer__text {
+  color: white;
+  line-height: 30px;
+}
+
+.footer__titre {
+  font-family: "Shrikhand";
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-solid.fa-utensils {
+  color: white;
+}
+
+.fa-solid.fa-handshake-angle {
+  color: white;
 }/*# sourceMappingURL=menu.css.map */
