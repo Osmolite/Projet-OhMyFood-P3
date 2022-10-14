@@ -46,9 +46,17 @@ body {
   font-family: "Shrikhand";
   font-size: 30px;
 }
+.menu__titre__2 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
 .menu__titre__logo {
   display: flex;
   justify-content: space-around;
+}
+
+.tiret {
+  border-top: 4px solid #99E2D0;
 }
 
 .fa-regular.fa-heart {
@@ -56,9 +64,9 @@ body {
   font-size: 25px;
 }
 
-footer {
+.footer {
   position: absolute;
-  bottom: -1622px;
+  bottom: -1780px;
   background-color: rgb(53, 53, 53);
   text-align: left;
   padding-left: 30px;
@@ -66,11 +74,10 @@ footer {
   padding-top: 25px;
   width: 100%;
 }
-footer__text {
+.footer__text {
   color: white;
   line-height: 30px;
 }
-
 .footer__titre {
   font-family: "Shrikhand";
   font-size: 20px;
@@ -84,12 +91,4 @@ footer a {
   text-decoration: none;
   color: white;
   font-family: "Roboto", sans-serif;
-}
-
-.fa-solid.fa-utensils {
-  color: white;
-}
-
-.fa-solid.fa-handshake-angle {
-  color: white;
 }/*# sourceMappingURL=menu.css.map */
