@@ -23,6 +23,11 @@ body {
   min-height: 1746px;
 }
 
+.overlay__menu__enchantee {
+  position: relative;
+  min-height: 1840px;
+}
+
 .section_image {
   position: absolute;
   top: 0;
