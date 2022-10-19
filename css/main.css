@@ -141,7 +141,6 @@ body {
   justify-content: space-between;
 }
 .section_1__cards .fa-regular.fa-heart {
-  position: absolute;
   padding-top: 30px;
   padding-right: 30px;
   font-size: 25px;
@@ -151,8 +150,9 @@ body {
   display: none;
 }
 .section_1__cards .fa-solid.fa-heart {
+  position: absolute;
   padding-top: 30px;
-  padding-right: 30px;
+  right: 29px;
   font-size: 25px;
   opacity: 0%;
   text-transform: uppercase;
