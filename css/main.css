@@ -141,9 +141,27 @@ body {
   justify-content: space-between;
 }
 .section_1__cards .fa-regular.fa-heart {
+  position: absolute;
   padding-top: 30px;
   padding-right: 30px;
   font-size: 25px;
+  opacity: 100%;
+}
+.section_1__cards .fa-regular.fa-heart:hover {
+  display: none;
+}
+.section_1__cards .fa-solid.fa-heart {
+  padding-top: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  opacity: 0%;
+  text-transform: uppercase;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section_1__cards .fa-solid.fa-heart:hover {
+  opacity: 100%;
 }
 .section_1__cards__etiquette_nouveau {
   position: absolute;

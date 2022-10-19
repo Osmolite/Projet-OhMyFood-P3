@@ -50,9 +50,27 @@
         justify-content: space-between;
     }
     .fa-regular.fa-heart {
+        position: absolute;
         padding-top: 30px;
         padding-right: 30px;
         font-size: 25px;
+        opacity: 100%;
+        &:hover {
+            display: none;
+        }
+    }
+    .fa-solid.fa-heart { 
+        padding-top: 30px;
+        padding-right: 30px;
+        font-size: 25px;
+        opacity:0%;
+        text-transform: uppercase;
+	    background: linear-gradient($couleur_primaire,$couleur_secondaire);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+        &:hover { 
+            opacity:100%;
+        }
     }
     &__etiquette_nouveau {
         position: absolute;
