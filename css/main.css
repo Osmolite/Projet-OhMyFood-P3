@@ -56,6 +56,10 @@ body {
   width: 250px;
   margin: auto;
 }
+.menu_3__bouton:hover {
+  background: linear-gradient(170deg, #ff93e1, #a16be0);
+  box-shadow: 5px 5px 10px #7e7e7e;
+}
 
 .menu_4 {
   text-align: left;
@@ -86,6 +90,12 @@ body {
   color: white;
   content: counter(compteur);
   margin-left: -35px;
+}
+
+li:hover {
+  background-color: #f2eafb;
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px #7e7e7e;
 }
 
 .section_1 {
@@ -140,29 +150,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.section_1__cards .fa-regular.fa-heart {
-  padding-top: 30px;
-  padding-right: 30px;
-  font-size: 25px;
-  opacity: 100%;
-}
-.section_1__cards .fa-regular.fa-heart:hover {
-  display: none;
-}
-.section_1__cards .fa-solid.fa-heart {
-  position: absolute;
-  padding-top: 30px;
-  right: 29px;
-  font-size: 25px;
-  opacity: 0%;
-  text-transform: uppercase;
-  background: linear-gradient(#9356DC, #FF79DA);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.section_1__cards .fa-solid.fa-heart:hover {
-  opacity: 100%;
-}
 .section_1__cards__etiquette_nouveau {
   position: absolute;
   top: 0px;
@@ -176,6 +163,10 @@ body {
   font-weight: 600;
   font-size: 10px;
   border-radius: 4px;
+}
+.section_1__cards_restaurant:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px #7e7e7e;
 }
 
 .footer {
@@ -202,4 +193,30 @@ footer a {
   text-decoration: none;
   color: white;
   font-family: "Roboto", sans-serif;
+}
+
+.fa-solid.fa-heart {
+  padding-top: 30px;
+  right: 29px;
+  padding-right: 21px;
+  font-size: 25px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: white;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+}
+.fa-solid.fa-heart:hover {
+  animation: petitcoeur 1s;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes petitcoeur {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */

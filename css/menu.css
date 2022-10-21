@@ -153,4 +153,30 @@ footer a {
   text-decoration: none;
   color: white;
   font-family: "Roboto", sans-serif;
+}
+
+.fa-solid.fa-heart {
+  padding-top: 30px;
+  right: 29px;
+  padding-right: 21px;
+  font-size: 25px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: white;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+}
+.fa-solid.fa-heart:hover {
+  animation: petitcoeur 1s;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes petitcoeur {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }/*# sourceMappingURL=menu.css.map */
