@@ -39,6 +39,12 @@ body {
   position: relative;
 }
 
+.menu__partie {
+  animation: deroulement__menu 0.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
 .menu {
   width: 100%;
   position: absolute;
@@ -155,6 +161,30 @@ footer a {
   font-family: "Roboto", sans-serif;
 }
 
+.attente-0 {
+  animation-delay: 0s;
+}
+
+.attente-1 {
+  animation-delay: 0.5s;
+}
+
+.attente-2 {
+  animation-delay: 1s;
+}
+
+@keyframes deroulement__menu {
+  0% {
+    opacity: 0;
+    transform: translatey(20%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .fa-solid.fa-heart {
   padding-top: 30px;
   right: 29px;
