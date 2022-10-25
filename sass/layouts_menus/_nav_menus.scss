@@ -161,3 +161,30 @@ footer a{
       opacity: 1;
     }
 }
+.menu__ligne:hover .animation__validation{
+    right: 0px;
+    transition-duration: 1s;
+}
+.animation__validation {
+    position: absolute;
+    right: -90px;
+    top: 0px;
+    background-color: aquamarine;
+    padding: 25px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.menu__ligne:hover .icone__validation {
+    transform:rotate(0);
+    transition-duration: 1s;
+}
+.icone__validation {
+    background: white;
+    padding: 5px;
+    border-radius: 100%;
+    padding-inline: 7px;
+    color: aquamarine;
+    transform: rotate(-180deg);
+    
+}

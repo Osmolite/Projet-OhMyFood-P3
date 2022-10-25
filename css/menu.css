@@ -40,9 +40,12 @@ body {
 }
 
 .menu__partie {
-  animation: deroulement__menu 0.5s;
-  animation-timing-function: ease-in;
-  animation-fill-mode: both;
+  -webkit-animation: deroulement__menu 0.5s;
+          animation: deroulement__menu 0.5s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .menu {
@@ -162,15 +165,31 @@ footer a {
 }
 
 .attente-0 {
-  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .attente-1 {
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
 .attente-2 {
-  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes deroulement__menu {
+  0% {
+    opacity: 0;
+    transform: translatey(20%);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes deroulement__menu {
@@ -185,6 +204,35 @@ footer a {
     opacity: 1;
   }
 }
+.menu__ligne:hover .animation__validation {
+  right: 0px;
+  transition-duration: 1s;
+}
+
+.animation__validation {
+  position: absolute;
+  right: -90px;
+  top: 0px;
+  background-color: aquamarine;
+  padding: 25px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.menu__ligne:hover .icone__validation {
+  transform: rotate(0);
+  transition-duration: 1s;
+}
+
+.icone__validation {
+  background: white;
+  padding: 5px;
+  border-radius: 100%;
+  padding-inline: 7px;
+  color: aquamarine;
+  transform: rotate(-180deg);
+}
+
 .fa-solid.fa-heart {
   padding-top: 30px;
   right: 29px;
@@ -197,9 +245,19 @@ footer a {
   -webkit-background-clip: text;
 }
 .fa-solid.fa-heart:hover {
-  animation: petitcoeur 1s;
+  -webkit-animation: petitcoeur 1s;
+          animation: petitcoeur 1s;
   -webkit-text-stroke-color: transparent;
   -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes petitcoeur {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 @keyframes petitcoeur {

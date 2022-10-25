@@ -207,9 +207,19 @@ footer a {
   -webkit-background-clip: text;
 }
 .fa-solid.fa-heart:hover {
-  animation: petitcoeur 1s;
+  -webkit-animation: petitcoeur 1s;
+          animation: petitcoeur 1s;
   -webkit-text-stroke-color: transparent;
   -webkit-text-fill-color: transparent;
+}
+
+@-webkit-keyframes petitcoeur {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 @keyframes petitcoeur {
