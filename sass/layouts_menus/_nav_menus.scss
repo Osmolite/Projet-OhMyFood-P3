@@ -100,14 +100,27 @@ body {
     right: 0;
     top: 0;
     padding-right: 20px;
-    padding-top: 24px;
+    padding-top: 32px;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
+}
+.menu__ligne:hover .prix {
+    right: 70px;
+    transition-duration: 1s;
 }
 .text__ligne {
     line-height: 2px;
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 15px;
+    margin: 0px;
+}
+.menu__ligne:hover .text__ligne {
+    width: 230px;
+    text-overflow: ellipsis;
+    transition-duration: 1s;
 }
 .tiret {
     border-top: 4px solid $couleur_tertiaire;
@@ -170,7 +183,8 @@ footer a{
     right: -90px;
     top: 0px;
     background-color: aquamarine;
-    padding: 25px;
+    padding: 29px;
+    padding-inline: 25px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     
