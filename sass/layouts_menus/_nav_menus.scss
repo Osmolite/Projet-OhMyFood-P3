@@ -116,9 +116,11 @@ body {
     overflow: hidden;
     padding: 15px;
     margin: 0px;
+    width: 280px;
+    text-overflow: ellipsis;
 }
 .menu__ligne:hover .text__ligne {
-    width: 230px;
+    width: 200px;
     text-overflow: ellipsis;
     transition-duration: 1s;
 }

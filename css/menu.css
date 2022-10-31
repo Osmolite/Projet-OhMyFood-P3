@@ -129,10 +129,12 @@ body {
   overflow: hidden;
   padding: 15px;
   margin: 0px;
+  width: 280px;
+  text-overflow: ellipsis;
 }
 
 .menu__ligne:hover .text__ligne {
-  width: 230px;
+  width: 200px;
   text-overflow: ellipsis;
   transition-duration: 1s;
 }
@@ -268,24 +270,22 @@ footer a {
   left: 50%;
 }
 
-.loader::after,
-.loader::before {
-  content: "";
+.cercle1 {
   box-sizing: border-box;
   position: absolute;
   left: 0;
   top: 0;
-  background: #9356DC;
+  color: #9356DC;
   width: 16px;
   height: 16px;
   transform: translate(-50%, 50%);
   border-radius: 50%;
 }
 
-.loader::before {
+.cercle2 {
   left: auto;
   right: 0;
-  background: #FF79DA;
+  color: #FF79DA;
   transform: translate(50%, 100%);
 }
 
