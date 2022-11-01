@@ -33,3 +33,19 @@ li:hover {
   transform: scale(1.05);
   box-shadow: 5px 5px 10px #7e7e7e;
 }
+@media (min-width : 501px ) {
+  .menu_4 {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  .menu_4__list li {
+    margin-inline: 20px;
+  }
+  .menu_4__list {
+    display: flex;
+  }
+}
+@media (min-width : 960px) {
+
+}
