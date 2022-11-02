@@ -28,9 +28,16 @@ body {
     top: 0;
     left: 0;
 }
-.section_image__a_la_francaise {
+.section_image_photo {
     width: 100%;
     position: relative;
+}
+.section_image_photo_appli {
+    width: 100%;
+    position: relative;
+}
+.section_image_photo_responsive {
+    display: none;
 }
 .menu__partie{
     animation: deroulement__menu 0.5s;
@@ -226,6 +233,9 @@ footer a{
         justify-content: center;
         align-items: center;
         flex-flow: column;
+        width: 50%;
+        margin-inline: 25%;
+        top: 116px;
     }
     .menu__ligne {
         width: 600px;
@@ -243,7 +253,18 @@ footer a{
         animation-name: apparition;
         animation-fill-mode: forwards;
     }
+    .footer {
+        bottom: 24px;
     }
+    .section_image_photo_appli {
+       display: none;
+    }
+    .section_image_photo_responsive {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+}
 @keyframes apparition {
     from {
         opacity: 0%;
