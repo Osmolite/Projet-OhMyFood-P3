@@ -215,7 +215,7 @@ footer a{
     transform: rotate(-180deg);
     
 }
-@media (min-width : 501px ) {
+@media (min-width : 768px ) {
     .menu {
         top: 300px;
     }
@@ -227,7 +227,7 @@ footer a{
         bottom: -130px;
     }
     }
-@media (min-width : 960px) {
+@media (min-width : 992px) {
     .menu {
         display: flex;
         justify-content: center;
@@ -238,7 +238,7 @@ footer a{
         top: 116px;
     }
     .menu__ligne {
-        width: 600px;
+        width: 480px;
     }
     .fa-solid.fa-heart {
         margin-left: 80px;
@@ -254,7 +254,7 @@ footer a{
         animation-fill-mode: forwards;
     }
     .footer {
-        bottom: 24px;
+        bottom: 0px;
     }
     .section_image_photo_appli {
        display: none;
