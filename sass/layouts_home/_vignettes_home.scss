@@ -86,12 +86,13 @@
 @media (min-width : 960px) {
 .section_1__cards {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
 }
 .section_1__cards_restaurant {
     width: 750px;
     height: 458px;
     margin: 30px;
+    padding-bottom: 30px;
 
 }
 }

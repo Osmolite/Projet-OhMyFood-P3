@@ -1,6 +1,7 @@
 .menu_4 {
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
     &__list{
         list-style-type: none;
         counter-reset: compteur;
@@ -42,10 +43,11 @@ li:hover {
   .menu_4__list li {
     margin-inline: 20px;
   }
-  .menu_4__list {
+ 
+}
+
+@media (min-width : 960px) {
+   .menu_4__list {
     display: flex;
   }
-}
-@media (min-width : 960px) {
-
 }

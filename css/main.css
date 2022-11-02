@@ -64,6 +64,7 @@ body {
 .menu_4 {
   text-align: left;
   font-family: "Roboto", sans-serif;
+  margin-left: 30px;
 }
 .menu_4__list {
   list-style-type: none;
@@ -107,6 +108,8 @@ li:hover {
   .menu_4__list li {
     margin-inline: 20px;
   }
+}
+@media (min-width: 960px) {
   .menu_4__list {
     display: flex;
   }
@@ -198,12 +201,13 @@ li:hover {
 @media (min-width: 960px) {
   .section_1__cards {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
   }
   .section_1__cards_restaurant {
     width: 750px;
     height: 458px;
     margin: 30px;
+    padding-bottom: 30px;
   }
 }
 .footer {

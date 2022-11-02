@@ -4,7 +4,7 @@ body {
 }
 
 .logo__image {
-  width: 50%;
+  width: 200px;
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -93,6 +93,11 @@ body {
   margin-bottom: 100px;
   text-align: center;
   margin-inline: auto;
+}
+
+.bouton_commander:hover {
+  background: linear-gradient(170deg, #ff93e1, #a16be0);
+  box-shadow: 5px 5px 10px #7e7e7e;
 }
 
 .menu__ligne {
@@ -232,6 +237,50 @@ footer a {
   transform: rotate(-180deg);
 }
 
+@media (min-width: 501px) {
+  .menu {
+    top: 300px;
+  }
+  .text__ligne {
+    text-overflow: clip;
+    overflow: visible;
+  }
+  .footer {
+    bottom: -130px;
+  }
+}
+@media (min-width: 960px) {
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  .menu__ligne {
+    width: 600px;
+  }
+  .fa-solid.fa-heart {
+    margin-left: 80px;
+  }
+  .animation__validation {
+    opacity: 0%;
+  }
+  .menu__ligne:hover .animation__validation {
+    right: 0px;
+    transition-duration: 1s;
+    animation-duration: 1s;
+    animation-name: apparition;
+    animation-fill-mode: forwards;
+  }
+}
+@keyframes apparition {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
 .fa-solid.fa-heart {
   padding-top: 30px;
   right: 29px;
