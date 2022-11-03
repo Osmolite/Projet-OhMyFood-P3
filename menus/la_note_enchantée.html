@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/menu.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,27 +18,28 @@
 <body>
     <header>
         <div class="bouton_return">
-            <a href="../home.html" class="bouton-return__link"><i class="fa-solid fa-arrow-left"></i></a>
+            <a href="../index.html" class="bouton-return__link"><i class="fa-solid fa-arrow-left"></i></a>
         </div>
         <div class="logo">
-            <img class="logo__image" src="/images/ohmyfood.png" alt="logo" />
+            <img class="logo__image" src="../images/ohmyfood.png" alt="logo" />
         </div>
     </header>
-    <div class="overlay__menu">
+    <div class="overlay__menu__enchantee">
     <section class="section_image">
-        <img class="section_image_photo" src="/images/palette-gout.jpg" alt="restaurant" />
+        <img class="section_image_photo_appli" src="../images/note-enchantee.jpg" alt="restaurant" />
+        <img class="section_image_photo_responsive" src="../images/note-enchantee-responsive.jpg" alt="restaurant" />
     </section>
     <section class="menu">
         <div class="menu__titre__logo">
-        <h1 class="menu__titre">La palette du goût</h1>
+        <h1 class="menu__titre">La note enchantée</h1>
         <i class="fa-solid fa-heart"></i>
         </div>
         <div class="attente-0 menu__partie">
             <h3 class="menu__titre__2">ENTRÉES</h3>
             <HR class="tiret" ALIGN=left WIDTH="50">
             <div class="menu__ligne">
-                <h3 class="text__ligne">Fricassée d'escargot</h3>
-                <p class="text__ligne">Au piment d'espelette</p>
+                <h3 class="text__ligne">Raviole de foie gras</h3>
+                <p class="text__ligne">Accompagnés de leur crème à la truffe</p>
                 <p class="prix">25€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
@@ -47,8 +48,8 @@
                 </div>
             </div>
             <div class="menu__ligne">
-                <h3 class="text__ligne">Foie gras de canard mi-cuit</h3>
-                <p class="text__ligne">Et ses copeaux de truffe noire</p>
+                <h3 class="text__ligne">Caviar osciètre</h3>
+                <p class="text__ligne">Sur blini à la farine</p>
                 <p class="prix">35€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
@@ -57,9 +58,19 @@
                 </div>
             </div>
             <div class="menu__ligne">
-                <h3 class="text__ligne">Oeuf au plat</h3>
-                <p class="text__ligne">Assaisonné à la truffe sur lit de caviar</p>
+                <h3 class="text__ligne">Homard et espuna de</h3>
+                <p class="text__ligne">Mariné aux zests d'orange</p>
                 <p class="prix">20€</p>
+                <div class="animation__validation">
+                    <div class="icone__validation">
+                      <i class="fa-solid fa-check menuItem__Icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__ligne">
+                <h3 class="text__ligne">Foie gras de canard cuit entier</h3>
+                <p class="text__ligne">Confiture de figue et pain toasté</p>
+                <p class="prix">35€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
                       <i class="fa-solid fa-check menuItem__Icon"></i>
@@ -71,8 +82,8 @@
             <h3 class="menu__titre__3">PLATS</h3>
             <HR class="tiret" ALIGN=left WIDTH="50">
             <div class="menu__ligne">
-                <h3 class="text__ligne">Filet de boeuf aux herbes</h3>
-                <p class="text__ligne">Accompagné de sa ribambelle de légumes</p>
+                <h3 class="text__ligne">Noix de coquilles Saint-Jacques</h3>
+                <p class="text__ligne">Sur lit de purée de céleri-rave</p>
                 <p class="prix">40€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
@@ -81,8 +92,8 @@
                 </div>
             </div>
             <div class="menu__ligne">
-                <h3 class="text__ligne">Parmentier de queue de boeuf</h3>
-                <p class="text__ligne">À la truffe noire sur sa purée de panais</p>
+                <h3 class="text__ligne">Langoustine poêlée</h3>
+                <p class="text__ligne">Purée de patate douce</p>
                 <p class="prix">35€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
@@ -91,8 +102,8 @@
                 </div>
             </div>
             <div class="menu__ligne">
-                <h3 class="text__ligne">Filet de Turbot</h3>
-                <p class="text__ligne">Aux agrumes</p>
+                <h3 class="text__ligne">Mijoté de queue de boeuf</h3>
+                <p class="text__ligne">Et riz sauvage aux zests de citron</p>
                 <p class="prix">44€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
@@ -105,8 +116,8 @@
             <h3 class="menu__titre__3">DESSERTS</h3>
             <HR class="tiret" ALIGN=left WIDTH="50">
             <div class="menu__ligne">
-                <h3 class="text__ligne">Paris-Brest</h3>
-                <p class="text__ligne">Revisité</p>
+                <h3 class="text__ligne">Macaron noisette et chocolat</h3>
+                <p class="text__ligne">Glace au caramel brun et sel de Guérande</p>
                 <p class="prix">18€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
@@ -115,8 +126,8 @@
                 </div>
             </div>
             <div class="menu__ligne">
-                <h3 class="text__ligne">Macaron au chocolat d'exception</h3>
-                <p class="text__ligne">Et glace à la vanille de Madagascar</p>
+                <h3 class="text__ligne">Baba au rhum revisité</h3>
+                <p class="text__ligne">Avec son coulis de citron</p>
                 <p class="prix">22€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
@@ -125,8 +136,8 @@
                 </div>
             </div>
             <div class="menu__ligne">
-                <h3 class="text__ligne">Mousse au chocolat</h3>
-                <p class="text__ligne">Au piment d'espelette et à la truffe noire</p>
+                <h3 class="text__ligne">Tarte au citron meringuée</h3>
+                <p class="text__ligne">Destructurée</p>
                 <p class="prix">23€</p>
                 <div class="animation__validation">
                     <div class="icone__validation">
