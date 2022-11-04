@@ -246,6 +246,22 @@ footer a {
   transform: rotate(-180deg);
 }
 
+@media (max-width: 330px) {
+  .text__ligne {
+    width: 201px;
+  }
+  .footer {
+    bottom: -38px;
+  }
+  .menu__ligne:hover .text__ligne {
+    width: 150px;
+    text-overflow: ellipsis;
+    transition-duration: 1s;
+  }
+  .menu__titre {
+    font-size: 25px;
+  }
+}
 @media (min-width: 768px) {
   .menu {
     top: 300px;

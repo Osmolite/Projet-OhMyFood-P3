@@ -69,6 +69,14 @@
         box-shadow: 5px 5px 10px #7e7e7e;
     }
 }
+@media (max-width : 330px ) {
+.section_1__cards p {
+    font-size: 20px;
+}
+.section_1__cards__etiquette_nouveau__text {
+    width: 97px;
+}
+}
 @media (min-width : 768px ) {
 .section_1 {
     display: flex;

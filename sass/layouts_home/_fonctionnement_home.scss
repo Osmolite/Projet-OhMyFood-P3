@@ -43,7 +43,17 @@ li:hover {
   transform: scale(1.05);
   box-shadow: 5px 5px 10px #7e7e7e;
 }
-@media (min-width : 768px ) {
+@media (max-width : 330px ) {
+  .menu_4__list li {
+    padding-right: 33px;
+    width: 227px;
+  }
+  .menu_4__list {
+    margin-left: -31px;
+  }
+ 
+}
+@media (min-width : 500px ) {
   .menu_4 {
     display: flex;
     align-items: center;
@@ -55,7 +65,7 @@ li:hover {
  
 }
 
-@media (min-width : 992px) {
+@media (min-width : 1200px) {
    .menu_4__list {
     display: flex;
   }
