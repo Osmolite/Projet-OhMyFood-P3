@@ -148,15 +148,16 @@ body {
     bottom: 0px;
     background-color: rgba(53,53,53,255);
     text-align: left;
-    padding-left: 30px;
     padding-bottom: 30px;
     padding-top: 25px;
     width: 100%;
     &__text {
+    padding-left: 30px;
     color: white;
     line-height: 30px;
 }
     &__titre {
+    padding-left: 30px;
     font-family: 'Shrikhand';
     font-size: 20px;
     color: white;
@@ -192,7 +193,7 @@ footer a{
     transition-duration: 1s;
 }
 .animation__validation {
-    position: absolute;
+    position: fixed;
     right: -90px;
     top: 0px;
     background-color: aquamarine;
@@ -200,7 +201,6 @@ footer a{
     padding-inline: 25px;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    
 }
 .menu__ligne:hover .icone__validation {
     transform:rotate(0);
@@ -228,6 +228,7 @@ footer a{
     transition-duration: 1s;
 }
 .menu__titre {
+
     font-size: 25px;
 }
 }
