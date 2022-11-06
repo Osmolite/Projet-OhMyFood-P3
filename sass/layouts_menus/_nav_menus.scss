@@ -189,12 +189,14 @@ footer a{
     }
 }
 .menu__ligne:hover .animation__validation{
-    right: 0px;
     transition-duration: 1s;
+    animation-duration: 1s;
+    animation-name: display-translation;
+    animation-fill-mode: forwards;
 }
 .animation__validation {
-    position: fixed;
-    right: -90px;
+    visibility: hidden;
+    position: absolute;
     top: 0px;
     background-color: aquamarine;
     padding: 29px;
@@ -290,4 +292,14 @@ footer a{
         opacity: 100%;
     }
     
+}
+@keyframes display-translation {
+    from {
+        right: -90px;
+        visibility: hidden;
+    }
+    to {
+        right: 0px;
+        visibility: visible;
+    }
 }
