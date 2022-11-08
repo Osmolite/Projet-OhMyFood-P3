@@ -156,6 +156,8 @@ body {
 .tiret {
   border-top: 4px solid #99E2D0;
   margin-left: 20px;
+  text-align: left;
+  width: 50px;
 }
 
 .fa-regular.fa-heart {
