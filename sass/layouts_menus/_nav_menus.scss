@@ -217,7 +217,7 @@ footer a{
     transform: rotate(-180deg);
     
 }
-@media (max-width : 330px ) {
+@media (max-width : 350px ) {
     .text__ligne {
     width: 201px;
 }
@@ -233,6 +233,12 @@ footer a{
 
     font-size: 25px;
 }
+}
+@media (min-width : 450px) {
+    .text__ligne {
+        text-overflow: clip;
+        overflow: visible;
+    }
 }
 @media (min-width : 768px ) {
     .menu {
@@ -263,13 +269,13 @@ footer a{
         margin-left: 80px;
     }
     .animation__validation {
-        opacity: 0%;
+        opacity: 0%;       
     }
     .menu__ligne:hover .animation__validation{
         right: 0px;
         transition-duration: 1s;
         animation-duration: 1s;
-        animation-name: apparition;
+        animation-name: apparition, display-translation;
         animation-fill-mode: forwards;
     }
     .footer {
