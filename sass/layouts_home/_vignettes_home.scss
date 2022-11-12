@@ -77,6 +77,18 @@
     width: 97px;
 }
 }
+@media (max-width : 500px ) {
+.section_1__cards__etiquette_nouveau__text {
+    width: 68px;
+    font-size: 10px;
+    padding-block: 8px;
+}
+.section_1__cards p {
+    padding-left: 9px;
+    font-size: 15px;
+    line-height: 9px;
+    }
+}
 @media (min-width : 768px ) {
 .section_1 {
     display: flex;

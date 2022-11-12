@@ -1,6 +1,24 @@
 .fa-solid.fa-heart { 
     padding-top: 30px;
     right: 29px;
+    padding-right: 2px;
+    font-size: 25px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: white;
+    background: linear-gradient($couleur_primaire,$couleur_secondaire);
+    -webkit-background-clip: text;
+    
+    &:hover { 
+        animation: petitcoeur 1s;
+        -webkit-text-stroke-color: transparent;
+        -webkit-text-fill-color: transparent;
+        
+    }
+}
+.fa-solid.fa-heart.menu {
+    padding-top: 19px;
+    right: 29px;
     padding-right: 21px;
     font-size: 25px;
     -webkit-text-stroke-color: black;

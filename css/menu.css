@@ -231,7 +231,7 @@ footer a {
   position: absolute;
   top: 0px;
   background-color: aquamarine;
-  padding: 29px;
+  padding: 28px;
   padding-inline: 25px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
@@ -344,7 +344,7 @@ footer a {
 .fa-solid.fa-heart {
   padding-top: 30px;
   right: 29px;
-  padding-right: 21px;
+  padding-right: 2px;
   font-size: 25px;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
@@ -353,6 +353,23 @@ footer a {
   -webkit-background-clip: text;
 }
 .fa-solid.fa-heart:hover {
+  animation: petitcoeur 1s;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-solid.fa-heart.menu {
+  padding-top: 19px;
+  right: 29px;
+  padding-right: 21px;
+  font-size: 25px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: white;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+}
+.fa-solid.fa-heart.menu:hover {
   animation: petitcoeur 1s;
   -webkit-text-stroke-color: transparent;
   -webkit-text-fill-color: transparent;

@@ -75,6 +75,7 @@ body {
   counter-increment: compteur;
   margin-block: 30px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   background-color: rgb(246, 246, 246);
   border-radius: 15px;
@@ -93,25 +94,13 @@ body {
   margin-left: -35px;
 }
 
-.fa-solid.fa-mobile-screen-button {
-  padding-top: 4px;
-}
-
-.fa-solid.fa-list {
-  padding-top: 4px;
-}
-
-.fa-solid.fa-store {
-  padding-top: 4px;
-}
-
 li:hover {
   background-color: #f2eafb;
   transform: scale(1.05);
   box-shadow: 5px 5px 10px #7e7e7e;
 }
 
-@media (max-width: 330px) {
+@media (max-width: 420px) {
   .menu_4__list li {
     padding-right: 33px;
     width: 227px;
@@ -214,6 +203,18 @@ li:hover {
     width: 97px;
   }
 }
+@media (max-width: 500px) {
+  .section_1__cards__etiquette_nouveau__text {
+    width: 68px;
+    font-size: 10px;
+    padding-block: 8px;
+  }
+  .section_1__cards p {
+    padding-left: 9px;
+    font-size: 15px;
+    line-height: 9px;
+  }
+}
 @media (min-width: 768px) {
   .section_1 {
     display: flex;
@@ -268,7 +269,7 @@ footer a {
 .fa-solid.fa-heart {
   padding-top: 30px;
   right: 29px;
-  padding-right: 21px;
+  padding-right: 2px;
   font-size: 25px;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
@@ -277,6 +278,23 @@ footer a {
   -webkit-background-clip: text;
 }
 .fa-solid.fa-heart:hover {
+  animation: petitcoeur 1s;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-solid.fa-heart.menu {
+  padding-top: 19px;
+  right: 29px;
+  padding-right: 21px;
+  font-size: 25px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: white;
+  background: linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+}
+.fa-solid.fa-heart.menu:hover {
   animation: petitcoeur 1s;
   -webkit-text-stroke-color: transparent;
   -webkit-text-fill-color: transparent;

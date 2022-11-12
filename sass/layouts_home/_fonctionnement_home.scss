@@ -11,6 +11,7 @@
         counter-increment: compteur;
         margin-block: 30px;
         display: flex;
+        align-items: center;
         justify-content: space-around;
         background-color: rgba(246,246,246,255);
         border-radius: 15px;
@@ -29,21 +30,12 @@
         margin-left: -35px;
     }
 }
-.fa-solid.fa-mobile-screen-button {
-  padding-top: 4px;
-}
-.fa-solid.fa-list {
-  padding-top: 4px;
-}
-.fa-solid.fa-store {
-  padding-top: 4px;
-}
 li:hover {
   background-color: #f2eafb;
   transform: scale(1.05);
   box-shadow: 5px 5px 10px #7e7e7e;
 }
-@media (max-width : 330px ) {
+@media (max-width : 420px ) {
   .menu_4__list li {
     padding-right: 33px;
     width: 227px;
